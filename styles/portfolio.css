@@ -1,0 +1,201 @@
+
+.logo{
+  height: 100px;
+  width: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 190px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 60px;
+    font-family: sans-serif;
+}
+.btn-item{
+    font-weight: 700;
+    background-color: orchid;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    padding:5px 10px;
+    margin-left: 30px;  
+}
+.btn{
+    font-weight: 700;
+    background-color: orangered;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    padding:5px 10px;
+    margin-left: 30px;
+
+   /* banner section   */
+}
+.banner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 10px;
+   font-family: sans-serif;
+}
+.sub-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: blueviolet;
+    margin-bottom: 18px;
+    margin-left: 100px;
+}
+.nam{
+  font-size: 70px;
+  font-weight: 700;
+  color:orangered;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.title{
+    color: blueviolet;
+}
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(22, 27, 31);
+    margin-bottom: 18px;
+    margin-left: 30px;
+}
+.banner{
+    background-image: url(../images/pink.jpg)
+}
+.skill-container{
+    display: flex;
+    margin-top: 100px;
+
+    /* about section */
+}
+.about-title{
+    margin-left: 40%;
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: darkslategray;
+    margin-bottom: 20px;
+}
+.skills{
+    margin-left: 10%;
+}
+.skill-title{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: dodgerblue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.skill-description{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: dimgray;
+} 
+.hero{
+    background-image: url(../watch.png);
+    background-repeat: no-repeat;
+    margin-bottom: 30%;
+    margin: 10%;
+   
+}
+.advice{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: orange;
+    margin-top: 15%;
+    margin-left: 100px;
+    padding-top: 5%;
+}
+.call-btn{
+ margin-left: 15%;
+ height: 50px;
+ border: 0;
+ border-radius: 5px;
+ padding: 10px;
+ background-color: steelblue;
+ font-family: sans-serif;
+ font-weight: 700;
+ margin-top: 10px;
+ margin-bottom: 10%;
+}
+  /* foter portion */
+.future{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    background-image: linear-gradient(red, yellow, blue);
+    margin-top: 300px;
+}
+.mail{
+   font-size: 20px;
+   font-weight: 300;
+   font-family: sans-serif;
+   margin-left: 30%;
+   margin-top: 40%;
+}
+.phn{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.join{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5%;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: orangered;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.identity{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.mail-identity{
+       margin-top: 15px;
+       font-size: 15px;
+}
+.main-identity{
+    font-size: 15px;
+}
+.icon{
+   margin-left: 80px;
+   margin-bottom: 50%;
+
+}
+.icon-2{
+   margin-left: 30px;
+   margin-bottom: 50%;
+}
+.icon-3{
+    margin-left: 30px;
+    margin-bottom: 50%;
+}
+.copy{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-left: 45%;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    color: darkcyan;
+}
